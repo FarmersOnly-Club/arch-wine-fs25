@@ -30,6 +30,6 @@ jobs:
         uses: ms-jpq/sync-dockerhub-readme@v1
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_WINE_ARCH_FS22 }}
-          repository: toetje585/arch-wine-fs22
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          repository: philipulrich/arch-wine-fs25
           readme: "./README.md"
